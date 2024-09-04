@@ -1,0 +1,5 @@
+[2024-04-28 09:34:47] [info] [handle_data.py - replace_case_by_regular - 15] 需要替换的case:{'title': '所有信息填写正确', 'url': '/index.php?s=/api/passport/login', 'method': 'post', 'data': '{"form":{"mobile":"#phone#","smsCode":"7845","refereeld":32154,"isParty":false,"partyData":{}}}', 'json_type': True, 'expected_result': '{"status":200,"message":"登录成功","data":{"userId":10125,"token":"278b62f33c5d9b7d8d2fe414e670eac0"}}', 'jsonpath': '{"token":"$..token"}', 'login_status': False}
+[2024-04-28 09:34:47] [info] [handle_request.py - send_request - 41] 请求的url：http://192.168.25.40:8088/index.php?s=/api/passport/login
+[2024-04-28 09:34:47] [info] [handle_request.py - send_request - 42] 请求的请求方法：post
+[2024-04-28 09:34:47] [info] [handle_request.py - send_request - 43] 请求的数据：{'form': {'mobile': '#phone#', 'smsCode': '7845', 'refereeld': 32154, 'isParty': False, 'partyData': {}}}
+[2024-04-28 09:34:47] [info] [handle_request.py - send_request - 44] 请求的header：{'storeid': '10001', 'platform': 'APP', 'access-token': 'None', 'content-type': 'application/json;charset=UTF-8'}

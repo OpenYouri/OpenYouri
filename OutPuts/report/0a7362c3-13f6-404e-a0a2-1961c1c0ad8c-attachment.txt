@@ -1,0 +1,6 @@
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:29] [info] [handle_data.py - replace_case_by_regular - 25] 需要替换的case:{'title': 'cartIds字段类型错误校验', 'url': '/index.php?s=/api/cart/clear', 'method': 'post', 'data': '{"cartIds":"一"}', 'json_type': True, 'expected_result': '{"status":500}', 'jsonpath': None, 'login_status': None}
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:29] [info] [handle_request.py - send_request - 50] 请求的url：http://192.168.25.40:8088/index.php?s=/api/cart/clear
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:29] [info] [handle_request.py - send_request - 51] 请求的请求方法：post
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:29] [info] [handle_request.py - send_request - 52] 请求的数据：{'cartIds': '一'}
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:29] [info] [handle_request.py - send_request - 53] 请求的header：{'storeid': '10001', 'platform': 'APP', 'access-token': 'b4cc4fd4d740f3cd893336daa16ca444', 'content-type': 'application/json;charset=UTF-8'}
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:29] [info] [handle_request.py - send_request - 67] 接口返回值：{"message":"Argument 1 passed to app\\api\\controller\\Cart::clear() must be of the type array, string given","status":500,"data":[]}

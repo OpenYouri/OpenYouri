@@ -1,0 +1,7 @@
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:24] [info] [handle_data.py - replace_case_by_regular - 25] 需要替换的case:{'title': '请求方式为非post方式校验', 'url': 'index.php?s=/api/address/setDefault', 'method': 'get', 'data': '{"address_id":#address_id#}', 'json_type': 'False', 'expected_result': '{"status":500}', 'jsonpath': None, 'login_status': None}
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:24] [info] [handle_data.py - replace_by_regular - 69] 替换的key为 ：address_id  替换后的字符串：{"address_id":15215}
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:24] [info] [handle_request.py - send_request - 50] 请求的url：http://192.168.25.40:8088/index.php?s=/api/address/setDefault
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:24] [info] [handle_request.py - send_request - 51] 请求的请求方法：get
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:24] [info] [handle_request.py - send_request - 52] 请求的数据：{'address_id': 15215}
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:24] [info] [handle_request.py - send_request - 53] 请求的header：{'storeid': '10001', 'platform': 'APP', 'access-token': 'b4cc4fd4d740f3cd893336daa16ca444', 'content-type': 'application/json;charset=UTF-8'}
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:24] [info] [handle_request.py - send_request - 67] 接口返回值：{"status":200,"message":"设置成功","data":[]}

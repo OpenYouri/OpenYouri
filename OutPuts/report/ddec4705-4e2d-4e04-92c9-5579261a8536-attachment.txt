@@ -1,0 +1,7 @@
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:26] [info] [handle_data.py - replace_case_by_regular - 25] 需要替换的case:{'title': '请求方式非post方式校验', 'url': 'index.php?s=/api/address/remove', 'method': 'get', 'data': '{"addressId":#address_id#}', 'json_type': False, 'expected_result': '{"status":500}', 'jsonpath': None, 'login_status': None}
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:26] [info] [handle_data.py - replace_by_regular - 69] 替换的key为 ：address_id  替换后的字符串：{"addressId":15215}
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:26] [info] [handle_request.py - send_request - 50] 请求的url：http://192.168.25.40:8088/index.php?s=/api/address/remove
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:26] [info] [handle_request.py - send_request - 51] 请求的请求方法：get
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:26] [info] [handle_request.py - send_request - 52] 请求的数据：{'addressId': 15215}
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:26] [info] [handle_request.py - send_request - 53] 请求的header：{'storeid': '10001', 'platform': 'APP', 'access-token': 'b4cc4fd4d740f3cd893336daa16ca444', 'content-type': 'application/json;charset=UTF-8'}
+INFO     20:handle_logger.py:59 [2024-02-14 13:30:26] [info] [handle_request.py - send_request - 67] 接口返回值：{"status":200,"message":"删除成功","data":[]}
